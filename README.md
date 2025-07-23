@@ -3,4 +3,4 @@ This the GitHub repository for the Youtube channel Assembly Asylum, https://www.
 
 ## Version 1.0.0 Beta 55 available in the releases section.
 
-## User Manual Coming Soon.
+### A work in progress systems manual is available in the file list above.
