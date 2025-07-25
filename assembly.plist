@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<false/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>nop</string>
+		<string>brk</string>
+		<string>lda</string>
+		<string>sta</string>
+		<string>inc</string>
+		<string>dec</string>
+		<string>push</string>
+		<string>pop</string>
+		<string>lp</string>
+		<string>out</string>
+		<string>stc</string>
+		<string>in</string>
+		<string>cmp</string>
+		<string>jp</string>
+		<string>jz</string>
+		<string>jnz</string>
+		<string>jl</string>
+		<string>jlz</string>
+		<string>jg</string>
+		<string>jgz</string>
+		<string>jsr</string>
+		<string>jsrz</string>
+		<string>jsrnz</string>
+		<string>rts</string>
+		<string>rti</string>
+		<string>add</string>
+		<string>sub</string>
+		<string>mul</string>
+		<string>div</string>
+		<string>xch</string>
+		<string>len</string>
+		<string>shl</string>
+		<string>shr</string>
+		<string>neg</string>
+		<string>abs</string>
+		<string>trunc</string>
+		<string>rnd</string>
+		<string>ticks</string>
+		<string>yld</string>
+		<string>sleep</string>
+		<string>sys</string>
+		<string>ceil</string>
+		<string>round</string>
+		<string>sqrt</string>
+		<string>mod</string>
+		<string>cos</string>
+		<string>acos</string>
+		<string>sin</string>
+		<string>asin</string>
+		<string>tan</string>
+		<string>atan</string>
+		<string>pow</string>
+		<string>xor</string>
+		<string>or</string>
+		<string>and</string>
+		<string>not</string>
+		<string>pusha</string>
+		<string>popa</string>
+		<string>str</string>
+		<string>cp</string>
+		<string>ror</string>
+		<string>rol</string>
+		<string>hlt</string>
+		<string>clr</string>
+		<string>res</string>
+		<string>fill</string>
+		<string>staa</string>
+		<string>stai</string>						
+							
+	</array>
+	
+	<key>BBLMPredefinedNameList</key>
+	<array>
+		
+		<string>A</string>
+		<string>B</string>
+		<string>C</string>	
+		<string>D</string>
+		<string>X</string>
+		<string>Y</string>
+		<string>r0</string>
+		<string>r1</string>
+		<string>.db</string>
+		<string>.dw</string>
+		<string>.dd</string>
+		<string>.mb</string>
+		<string>.include</string>
+		<string>.file</string>
+		<string>true</string>
+		<string>false</string>
+		<string>pi</string>
+		<string>_start:</string>
+		<string>_irq:</string>
+		<string>_irqTimeOutValue</string>
+		<string>_terminal_clear</string>
+		<string>_terminal_bold</string>
+		<string>_terminal_normal</string>
+		<string>_terminal_italic</string>
+		<string>_terminal_resetStyles</string>
+		<string>_terminal_screenHome</string>
+		<string>_terminal_underline</string>
+		<string>_terminal_faint</string>	
+		<string>_terminal_inverse</string>
+		<string>_terminal_blinking</string>
+		<string>_terminal_strikeThrough</string>
+		<string>_terminal_hidden</string>
+		<string>_terminal_lineHome</string>
+		<string>_terminal_eraseLine</string>
+		<string>_terminal_resetTerminal</string>
+		<string>_terminal_cursorVisible</string>
+		<string>_terminal_foreColor</string>
+		<string>_terminal_backColor</string>
+		<string>_terminal_setCursorPosition</string>
+		<string>_terminal_echo</string>
+		<string>_terminal_moveBackXColumns</string>
+		<string>_terminal_eraseLineFromCursor</string>
+		<string>_terminal_moveCursorToColumn</string>
+										
+	</array>
+		
+	<key>BBLMLanguageCode</key>
+	<string>ASM</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Assembly Language</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.asm</string>
+		</dict>
+	</array>
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Characters</key>
+		<string>&amp;.?$:_-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+		<key>Prefix for Functions</key>
+		<string>SUB^</string>
+		<key>Prefix for Procedures</key>
+		<string>SUB^</string>
+		<key>Open Parameter Lists</key>
+		<string></string>
+		<key>Close Parameter Lists</key>
+		<string></string>
+		<key>Terminator for Prototypes 1</key>
+		<string></string>
+		<key>Terminator for Prototypes 2</key>
+		<string></string>
+		<key>Open Statement Blocks</key>
+		<string>{</string>
+		<key>Close Statement Blocks</key>
+		<string>}</string>
+		<key>Open Block Comments</key>
+		<string></string>
+		<key>Close Block Comments</key>
+		<string></string>
+		<key>Open Line Comments</key>
+		<string>;</string>
+		<key>String Pattern</key>
+		<string><![CDATA[".+?["\n]]]></string>
+		<key>Comment Pattern</key>
+		<string><![CDATA[;.*$]]></string>
+		<key>Number Pattern</key>
+		<string><![CDATA[(?<![\d\w.])(?:(?:0x[[:xdigit:]]+)|(?:[-+]?(?:\d+\.\d+|\d+)(?:[eE][-+]?\d+)?))(?=\b)]]></string>
+	</dict>
+</dict>
+</plist>
